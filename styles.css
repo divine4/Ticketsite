@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce3b2; /* Light yellow background color */
+    color: #080808;
+}
+
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f6f6f3; /* White background color for the content */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#movieSelection {
+    margin-bottom: 20px;
+}
+
+
+
+/* style buttons */
+button{
+    background-color: #4dc852; /* Green */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #5abb5f;
+}
